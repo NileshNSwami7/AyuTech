@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Project_AyuTech</display-name>
+ 
+ 
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<servlet-class>com.Ayutech.Servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<servlet-class>com.Ayutech.Servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/log</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<servlet-class>com.Ayutech.Servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern></url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>EditServlet</servlet-name>
+  	<servlet-class>com.Ayutech.Servlets.EditServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EditServlet</servlet-name>
+  	<url-pattern>/Editservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>AddpostServlet</servlet-name>
+  	<servlet-class>com.AyuTech.Servlets.AddpostServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddpostServlet</servlet-name>
+  	<url-pattern>/Addpostservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>LikeServlet</servlet-name>
+  	<servlet-class>com.AyuTech.Servlets.LikeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LikeServlet</servlet-name>
+  	<url-pattern>/Likeservlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
